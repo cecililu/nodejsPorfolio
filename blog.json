@@ -2,16 +2,22 @@
     {
       "id":1,
       "title":" UAV for survey grade accuracy",
-       "body":"This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog."
+      "author":"RAm Khadka",
+       "address":" Dhapakhel 24 Lalitpur",
+      "body":"This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog."
     },
     {
         "id":2,
         "title":" Bundle block adjustment in Photogrammetry",
+        "author":"SitaRAm Khadka",
+        "address":" Dhapakhel 67 Lalitpur",
          "body":"This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog."
       },
       {
         "id":3,
         "title":" A Bundle block adjustment in Photogrammetry",
+        "author":"Hari k subedi",
+        "address":"kathmandu",
          "body":"This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog.This is a blog."
       }
 ]

@@ -15,7 +15,7 @@ body{
 }
 
 .navbar{
-    background-image: linear-gradient(to right,#0603a3,#1915ff);
+    background-image: linear-gradient(to right,#06055e,#161572);
     padding: 1 !important;
 }
 
@@ -47,7 +47,7 @@ body{
 /*banner*/
 #banner{
     padding-top: 50px;
-    background-image: linear-gradient(to right,#0300a0,#1915ff);
+    background-image: linear-gradient(to right,#0300a0,#010038);
     color: white;
  
 }
@@ -71,12 +71,17 @@ body{
     text-decoration:none;
 }
 .img1{
-   margin-top: 30px;
+   margin-top: 0px;
+   /* height: 500px; */
    max-height: 100%;
-   max-width: 95%;
-    
-
+   max-width: 100%;
+   transform: scale(1.05); 
+   transition: all .2s ease-in-out; 
+  
 }
+.img1:hover { 
+  transform: scale(1.7); 
+  }
 
 #services{
     padding:20px 0;
