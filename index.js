@@ -24,6 +24,6 @@ app.get('/contact',(req,res,next)=>{
     res.render('contact')
 })
  const port=process.env.PORT 
-app.listen(port,'127.0.0.1',()=>{
+app.listen(port,()=>{
     console.log("listening to requesto on port 8000")
 })
