@@ -8,12 +8,12 @@ app.set('view engine','ejs')
 //geting json from another file
 const blog=JSON.parse(
     fs.readFileSync(`${__dirname}/blog.json`)
-    );
+);
 
 //handler function
 //api
 const getblog=(req,res)=>{
-    res.status(200).json(blog)
+    res.status(200).json((blog))
 }
 //get blog page
 const blogpage=(req ,res )=>{
@@ -27,9 +27,6 @@ const homepage=(req,res)=>{
 const contactpage=(req,res)=>{
     res.render('contact')
 }
-
-
-
 //routes
 app
     .route('/v1/blogs')
